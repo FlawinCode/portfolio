@@ -25,6 +25,7 @@
 
 .font-with {
   color: var(--c6);
+  margin-bottom: 1.375rem;
 }
 
 strong {
@@ -42,6 +43,10 @@ strong {
 
   .m-intro {
     margin-bottom: 2.5rem;
+  }
+
+  .font-with {
+    margin-bottom: 1.25rem;
   }
 }
 

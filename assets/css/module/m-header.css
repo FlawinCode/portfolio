@@ -32,7 +32,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 436px) {
   .m-nav-list {
     justify-content: center;
   }

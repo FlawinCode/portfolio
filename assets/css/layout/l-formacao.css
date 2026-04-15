@@ -14,7 +14,7 @@
 .l-formacao-content {
   grid-column: 2;
   display: grid;
-  gap: 3.75rem;
+  gap: 3.625rem 0;
 }
 
 .l-degree-list {
@@ -35,17 +35,12 @@
     grid-template-columns: auto auto;
     gap: 1.25rem;
   }
-
-  .l-formacao-grid {
-    gap: 47px;
-  }
 }
 
 @media (max-width: 1024px) {
   .l-formacao-grid {
     grid-template-columns: auto;
     padding-block: 6.25rem;
-    gap: 3rem;
   }
 
   .l-formacao-content {
