@@ -1,0 +1,94 @@
+.m-degree {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #000000;
+  min-height: 11.875rem;
+  padding: 1.25rem;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+}
+
+.m-degree::before {
+  content: "";
+  width: 0.25rem;
+  height: 1.25rem;
+  background: linear-gradient(to right, #b6f829, #67dd0a);
+  position: absolute;
+  top: 72px;
+}
+
+.m-degree-type {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  color: var(--c6);
+  text-transform: uppercase;
+  line-height: 1.25rem;
+}
+
+.m-degree-title {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  line-height: 1.5625rem;
+  font-size: clamp(1rem, calc(0.964rem + 0.179vw), 1.125rem);
+}
+
+.m-degree-institution {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-size: clamp(1rem, calc(0.964rem + 0.179vw), 1.125rem);
+  color: var(--c6);
+  line-height: 1.25rem;
+}
+
+.m-formacao-subtitle-text {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  color: var(--c7);
+  padding-bottom: 1.875rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.m-formacao-subtitle-text::before {
+  content: url(../../img/cursos.svg);
+  position: absolute;
+  left: -2.5rem;
+}
+
+.m-formacao-subtitle-text--idiomas::before {
+  content: url(../../img/idiomas.svg);
+  position: absolute;
+}
+
+.m-formacao-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.m-formacao-curso {
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-size: clamp(1rem, calc(0.964rem + 0.179vw), 1.125rem);
+  color: #ffffff;
+}
+
+.m-formacao-curso span,
+.m-formacao-curso-item {
+  color: var(--c7);
+}
+
+.m-formacao-curso-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .m-formacao-subtitle-text::before,
+  .m-formacao-subtitle-text--idiomas::before {
+    display: none;
+  }
+}

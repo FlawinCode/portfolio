@@ -1,0 +1,28 @@
+.l-experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 90rem;
+  margin-inline: auto;
+  margin-top: 8.375rem;
+  padding-inline: clamp(1.25rem, 9.7vw, 8.75rem);
+  gap: 0 12.5rem;
+}
+
+@media (max-width: 1280px) {
+  .l-experiencia {
+    gap: 0 120px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .l-experiencia {
+    grid-template-columns: 1fr;
+    margin-top: 5.375rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .l-experiencia {
+    padding-inline: 1.25rem;
+  }
+}

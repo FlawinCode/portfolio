@@ -1,0 +1,83 @@
+.l-formacao {
+  margin-top: 3.75rem;
+}
+
+.l-formacao-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 90rem;
+  margin-inline: auto;
+  padding: 7.5rem clamp(1.25rem, 9.7vw, 8.75rem);
+  gap: 0 118px;
+}
+
+.l-formacao-content {
+  grid-column: 2;
+  display: grid;
+  gap: 3.75rem;
+}
+
+.l-degree-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.l-formacao-extra-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.5rem;
+}
+
+@media (max-width: 1280px) {
+  .l-degree-list {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.25rem;
+  }
+
+  .l-formacao-grid {
+    gap: 47px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .l-formacao-grid {
+    grid-template-columns: auto;
+    padding-block: 6.25rem;
+    gap: 3rem;
+  }
+
+  .l-formacao-content {
+    grid-column: auto;
+    gap: 2.5rem;
+  }
+
+  .l-degree-list {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .l-formacao-grid {
+    padding-inline: 1.25rem;
+    padding-block: 5rem;
+    gap: 2rem;
+  }
+
+  .l-formacao-content {
+    gap: 2rem;
+  }
+
+  .l-degree-list {
+    grid-template-columns: auto auto;
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .l-degree-list {
+    grid-template-columns: auto;
+    padding: 0.3125rem;
+  }
+}

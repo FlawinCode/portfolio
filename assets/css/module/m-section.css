@@ -1,0 +1,56 @@
+.m-section-title {
+  grid-column: 1;
+  align-self: start;
+  font-family: "Fira Sans", sans-serif;
+  font-size: clamp(3rem, calc(1.286rem + 8.571vw), 9rem);
+  color: var(--c3);
+  line-height: 1;
+  max-width: 4ch;
+  overflow-wrap: break-word;
+  text-transform: uppercase;
+}
+
+.m-section-title--formacao {
+  max-width: 5ch;
+}
+
+.m-intro {
+  max-width: 40ch;
+  font-family: "Fira Sans", sans-serif;
+  font-size: clamp(1.143rem, calc(0.98rem + 0.714vw), 1.714rem);
+  line-height: 1.4;
+  color: var(--c10);
+  margin-bottom: 3.75rem;
+}
+
+.font-with {
+  color: var(--c6);
+}
+
+strong {
+  color: var(--c13);
+}
+
+@media (max-width: 1024px) {
+  .m-section-title,
+  .m-section-title--formacao {
+    margin-bottom: 3rem;
+    max-width: none;
+    overflow-wrap: none;
+    grid-column: auto;
+  }
+
+  .m-intro {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .m-section-title {
+    margin-bottom: 2rem;
+  }
+
+  .m-intro {
+    margin-bottom: 2rem;
+  }
+}

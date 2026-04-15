@@ -1,0 +1,11 @@
+.t-section-dark {
+  background-color: var(--c13);
+}
+
+.t-text-primary {
+  color: var(--c13);
+}
+
+.t-text-white {
+  color: #ffffff;
+}

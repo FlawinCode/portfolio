@@ -1,0 +1,48 @@
+.m-footer-content {
+  display: grid;
+  gap: 10.625rem;
+}
+
+.m-footer-text {
+  max-width: 32ch;
+  line-height: 1.5;
+  font-size: clamp(1rem, calc(0.857rem + 0.714vw), 1.5rem);
+  color: var(--c4);
+}
+
+.m-footer-copy {
+  color: var(--c7);
+  grid-column: 1;
+}
+
+.m-footer-contact {
+  display: grid;
+  justify-items: start;
+  gap: 1.875rem;
+  grid-column: 2;
+  grid-row: 1 / 2;
+}
+
+.m-footer-contact p {
+  color: var(--c4);
+}
+
+.m-footer-contact-item {
+  font-size: clamp(0.875rem, calc(1.286rem + 1.071vw), 2.25rem);
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .m-footer-text {
+    text-align: center;
+  }
+
+  .m-footer-copy {
+    padding-top: 1.875rem;
+  }
+
+  .m-footer-contact {
+    grid-column: 1;
+    grid-row: 2 / 3;
+  }
+}
