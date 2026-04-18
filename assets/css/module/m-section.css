@@ -3,7 +3,7 @@
   align-self: start;
   font-family: "Fira Sans", sans-serif;
   font-size: clamp(3rem, calc(1.286rem + 8.571vw), 9rem);
-  color: var(--c3);
+  color: var(--c8);
   line-height: 1;
   max-width: 4ch;
   overflow-wrap: break-word;
