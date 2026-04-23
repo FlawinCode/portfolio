@@ -39,6 +39,10 @@ html {
   background-color: black;
 }
 
+body {
+  background-color: white;
+}
+
 
 :root {
   --c1: #f5f5f5;
