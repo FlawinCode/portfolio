@@ -21,10 +21,12 @@
   gap: 1.875rem;
   grid-column: 2;
   grid-row: 1 / 2;
+  list-style: none;
 }
 
 .m-footer-contact p,
-.m-footer-contact a {
+.m-footer-contact a,
+.m-footer-contact li {
   color: var(--c4);
   text-decoration: none;
 }

@@ -1,18 +1,17 @@
 .l-main {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  max-width: 90rem;
+  max-width: 1440px;
   margin-inline: auto;
   padding-inline: clamp(1.25rem, 9.7vw, 8.75rem);
   margin-top: 11.25rem;
-  gap: 12.5rem;
+  gap: 0 clamp(7.5rem, calc(50vw - 32.5rem), 12.5rem);
   align-items: center;
 }
 
 @media (max-width: 1280px) {
   .l-main {
     margin-top: 9rem;
-    gap: 0 100px;
   }
 }
 
