@@ -2,6 +2,7 @@
   display: block;
   /* width: 100%; */
   max-width: 21.1875rem;
+  height: auto;
   grid-column: 1;
 }
 
