@@ -10,6 +10,7 @@
   height: 2.5rem;
   position: absolute;
   top: -60px;
+  left: max(1.25rem, calc(50% - 45rem + clamp(1.25rem, 9.7vw, 8.75rem)));
 }
 
 .l-footer-grid {
@@ -40,6 +41,7 @@
     height: 6.25rem;
     position: absolute;
     top: -50px;
+    left: max(1.25rem, calc(50% - 45rem + clamp(1.25rem, 9.7vw, 8.75rem)));
   }
 }
 
